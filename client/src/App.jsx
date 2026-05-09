@@ -12,7 +12,7 @@ import Pricing from './pages/Pricing'
 import DemoPayment from './pages/DemoPayment'
 import { Toaster } from 'react-hot-toast'
 
-export const serverUrl="http://localhost:8000"
+export const serverUrl="https://webuilder-alq3.onrender.com"
 function App() {
   useGetCurrentUser()
   const {userData}=useSelector(state=>state.user)
