@@ -15,7 +15,7 @@ const port=process.env.PORT || 5000
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
-    origin:"https://webuilder-pearl.vercel.app",
+    origin:"*",
     credentials:true
 }))
 app.use("/api/auth",authRouter)
