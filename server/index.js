@@ -15,7 +15,7 @@ const port=process.env.PORT || 5000
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
-    origin: "*",
+    origin: "https://webuilder-git-main-awijeet-singhs-projects.vercel.app",
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization']
